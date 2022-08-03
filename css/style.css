@@ -1,0 +1,175 @@
+.titleResponsive {
+    font-size: 5vw;
+}
+
+.textResponsive {
+    font-size: 3vw;
+}
+
+.mainContent h1 {
+    color:#eb1f85;
+}
+
+.mainContent p {
+    color:#ffffff;
+}
+
+.bg-dark {
+    background-color: #1c1c1c!important;
+}
+
+main svg {
+    display: block;
+    z-index: -1;
+}
+
+.card,.card-img-top {
+    border-radius: 0!important;
+}
+
+.card-img-top {
+    height: 10rem!important;
+}
+
+.custom-shape-divider-bottom-1659536212 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1659536212 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 81px;
+}
+
+.custom-shape-divider-bottom-1659536212 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#logo {
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.menuContent {
+    display: none!important;
+}
+
+.active {
+    display: flex!important;
+}
+
+.btns-container button:nth-child(1){
+    background-color: #eb1f85;
+}
+
+.btns-container button:nth-child(2){
+    background-color: #16acd1;
+}
+
+.btns-container button:nth-child(3){
+    background-color: #922dc5;
+}
+
+.btns-container button:nth-child(4){
+    background: rgb(235,31,133);
+    background: linear-gradient(30deg, rgba(235,31,133,1) 0%, rgba(22,172,209,1) 100%);
+}
+
+.btns-container button{
+    font-weight: 500;
+    box-shadow: 0 0 0.2rem rgba(0,0,0,0.5);
+    transition: 0.1s;
+}
+
+.btns-container button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 0.7rem #922dc580;
+}
+
+@keyframes logo {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.card {
+    margin: 0 1rem;
+    max-width: 20rem;
+    height: 30rem;
+    box-shadow: 0.2rem 0 0.5rem #16acd140, 0 0.2rem 0.5rem #eb1f8540;
+}
+
+.btn {
+    border-radius: 0!important;
+    border: none;
+}
+
+.textResponsiveContact {
+    font-size: 1.5vw;
+}
+
+footer {
+    margin-top: 10rem;
+}
+
+main {
+    margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .mainContent {
+        flex-wrap: wrap!important;
+    }
+
+    #logo {
+        width: 40%;
+    }
+
+    .titleResponsive {
+        font-size: 10vw;
+    }
+    
+    .textResponsive {
+        font-size: 5vw;
+    }
+
+    .textResponsiveContact {
+        font-size: 3vw;
+    }
+    
+    .contact {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #logo {
+        width: 70%;
+    }
+
+    .titleResponsive {
+        font-size: 13vw;
+    }
+    
+    .textResponsive {
+        font-size: 8vw;
+    }
+
+    .textResponsiveContact {
+        font-size: 6vw;
+    }
+}
