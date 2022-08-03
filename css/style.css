@@ -173,4 +173,13 @@ footer {
     .textResponsiveContact {
         font-size: 6vw;
     }
+
+    .btns-container {
+        flex-direction: column;
+
+    }
+
+    .selectionBtn {
+        width: 100%;
+    }
 }
