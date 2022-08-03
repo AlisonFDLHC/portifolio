@@ -1,3 +1,7 @@
+.logoContainer {
+    margin: 4rem 0;
+}
+
 .titleResponsive {
     font-size: 5vw;
 }
@@ -49,7 +53,7 @@ main svg {
 }
 
 .custom-shape-divider-bottom-1659536212 .shape-fill {
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
 
 #logo {
