@@ -154,6 +154,13 @@ footer {
     .contact {
         flex-direction: column;
     }
+    .btns-container {
+        flex-direction: column;
+
+    }
+    .selectionBtn {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -174,11 +181,4 @@ footer {
         font-size: 6vw;
     }
 
-    .btns-container {
-        flex-direction: column;
-
-    }
-    .selectionBtn {
-        width: 100%;
-    }
 }
