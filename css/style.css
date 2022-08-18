@@ -130,6 +130,22 @@ footer {
     margin-top: 10rem;
 }
 
+.menubtn:nth-child(1) {
+    background-color: #eb1f85;
+}
+
+.menubtn:nth-child(1):hover {
+    box-shadow: inset 0 0 1rem rgba(0,0,0,0.2);
+}
+
+.menubtn:nth-child(2) {
+    background-color: #16acd1;
+}
+
+.menubtn:nth-child(2):hover {
+    box-shadow: inset 0 0 1rem rgba(0,0,0,0.2);
+}
+
 @media screen and (max-width: 1050px) {
     .mainContent {
         flex-wrap: wrap!important;
